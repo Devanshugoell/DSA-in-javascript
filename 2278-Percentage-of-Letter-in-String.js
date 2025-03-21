@@ -7,7 +7,7 @@ var percentageLetter = function (s, letter) {
     }
   }
 
-  return (count / s.length) * 100;
+  return Math.floor((count / s.length) * 100);
 };
 
 console.log(percentageLetter("foobar", "o"));
