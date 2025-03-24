@@ -34,6 +34,8 @@ var searchRange = function (nums, target) {
   return [first, last];
 };
 
+//Another method
+
 var searchRange = function (nums, target) {
   let result = [-1, -1];
 
